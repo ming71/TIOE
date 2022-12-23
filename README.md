@@ -35,13 +35,13 @@ sh compile.sh
 
 
 ### Training
-1. Creat config files.
-2. Dataset transformation via running `sh prepare.sh`.
-3. Run `sh train.sh`.
+  * Creat config files.
+  * Dataset transformation via running `sh prepare.sh`.
+  * Run `sh train.sh`.
 
 
 ### Inference & Testing
-Run `sh demo.sh` and Run `sh test.sh`.
+* Run `sh demo.sh` and `sh test.sh`.
 
 ## Visualizations
 ![demo](./docs/demo.jpg) 
