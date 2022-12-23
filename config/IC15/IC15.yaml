@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train: data/IC15/yolo_train/images/
+test: data/IC15/yolo_test/images/
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'text']

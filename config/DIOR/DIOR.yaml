@@ -1,0 +1,14 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train: data/DIOR/yolo_trainval/images/
+test: data/DIOR/yolo_test/images/
+
+# number of classes
+nc: 20
+
+# class names
+names: ['airplane', 'airport', 'baseballfield', 'basketballcourt', 'bridge',
+             'chimney', 'Expressway-Service-area', 'Expressway-toll-station',
+             'dam', 'golffield', 'groundtrackfield', 'harbor', 'overpass', 'ship',
+             'stadium', 'storagetank', 'tenniscourt', 'trainstation', 'vehicle',
+             'windmill']

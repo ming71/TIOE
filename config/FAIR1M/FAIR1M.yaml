@@ -1,0 +1,18 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train: data/FAIR1M/yolo_train/images/
+test: data/FAIR1M/yolo_test/images/
+
+# number of classes
+nc: 37
+
+# class names
+names: ['C919', 'ARJ21', 'Tractor', 'Roundabout', 'Trailer',
+                'Passenger Ship', 'Warship', 'Football Field', 
+                'Truck Tractor', 'Excavator', 'Bus', 'Bridge', 
+                'Baseball Field', 'A350', 'Basketball Court', 
+                'Engineering Ship', 'Boeing777', 'Tugboat', 'A330', 
+                'Boeing787', 'Boeing747', 'other-ship', 'A321', 
+                'Tennis Court', 'Liquid Cargo Ship', 'other-vehicle', 
+                'Boeing737', 'Fishing Boat', 'A220', 'Intersection', 'Motorboat', 'Cargo Truck', 'Dry Cargo Ship', 
+                'other-airplane', 'Dump Truck', 'Van', 'Small Car']

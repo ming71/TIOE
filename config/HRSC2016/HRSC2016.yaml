@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train: data/HRSC2016/yolo_trainval/images/
+test: data/HRSC2016/yolo_test/images/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['ship']

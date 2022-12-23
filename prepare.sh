@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+PYTHON=${PYTHON:-"python"}
+
+
+
+# DATASET="HRSC2016"
+# DATASET="UCAS_AOD"
+# DATASET="DOTA"
+# DATASET="DOTA1_5"
+# DATASET="DIOR"
+# DATASET="FAIR1M"
+# DATASET="DOTA2"
+# DATASET="IC15"
+# DATASET="IC13"
+# DATASET="MSRA_TD500"
+# DATASET="NWPU_VHR10"
+# DATASET="VOC2007"
+DATASET="UAV_ROD"
+
+ROOT_DIR=data/$DATASET
+
+python tools/prepare.py  --dataset $DATASET  --root_dir  $ROOT_DIR
+
+
