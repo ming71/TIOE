@@ -5,7 +5,7 @@ This project hosts the official implementation for the paper:
 **Task Interleaving and Orientation Estimation for High-Precision Oriented Object Detection in Aerial Images** 
 <!-- [[paper](https://ieeexplore.ieee.org/abstract/document/9488629)]  -->
 
-( accepted by **ISPRS Journal of Photogrammetry and Remote Sensing**). 
+<!-- ( accepted by **ISPRS Journal of Photogrammetry and Remote Sensing**).  -->
 
 
 
@@ -44,7 +44,7 @@ sh compile.sh
 Run `sh demo.sh` and Run `sh test.sh`.
 
 ## Visualizations
-![framework](docs/demo.jpg) 
+![demo](./docs/demo.jpg) 
 
 
 <!-- ## Citation
