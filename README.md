@@ -3,9 +3,9 @@
 This project hosts the official implementation for the paper: 
 
 **Task Interleaving and Orientation Estimation for High-Precision Oriented Object Detection in Aerial Images** 
-<!-- [[paper](https://ieeexplore.ieee.org/abstract/document/9488629)]  -->
+[[URL](https://www.sciencedirect.com/science/article/pii/S0924271623000011)][[PDF](https://ming71.github.io/Files/papers/TIOE.pdf)][[BibTex](https://ming71.github.io/Files/BibTeX/TIOEDet.html)]
 
-<!-- ( accepted by **ISPRS Journal of Photogrammetry and Remote Sensing**).  -->
+( accepted by **ISPRS Journal of Photogrammetry and Remote Sensing**). 
 
 
 
@@ -47,24 +47,24 @@ sh compile.sh
 ![demo](./docs/demo.jpg) 
 
 
-<!-- ## Citation
+## Citation
 
 If you find our work or code useful in your research, please consider citing:
 
 ```
-@article{ming2021cfc,
-    author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Dong, Yunpeng},
-    journal={IEEE Transactions on Geoscience and Remote Sensing},
-    title={CFC-Net: A Critical Feature Capturing Network for Arbitrary-Oriented Object Detection in Remote-Sensing Images},
-    year={2021},
-    volume={},
-    number={},
-    pages={1-14},
-    doi={10.1109/TGRS.2021.3095186}
+@article{MING2023241,
+title={Task interleaving and orientation estimation for high-precision oriented object detection in aerial images},
+author={Qi Ming and Lingjuan Miao and Zhiqiang Zhou and Junjie Song and Yunpeng Dong and Xue Yang},
+journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+volume={196},
+pages={241-255},
+year={2023},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2023.01.001},
 }
+```
 
 
-``` -->
 
 Feel free to contact [me](chaser.ming@gmail.com)  if there are any questions.
 
